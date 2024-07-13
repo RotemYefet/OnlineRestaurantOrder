@@ -1,0 +1,219 @@
+/* styles.css */
+
+/* Body styles */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  #header {
+    background-color: #007bff;
+    padding: 10px;
+  }
+  
+  #header .logo {
+    max-width: 100px; /* Adjust logo size as needed */
+  }
+  
+  .navigation {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navigation li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navigation li a.active {
+    font-weight: bold;
+  }
+  
+  /* Featured items styles */
+  .featured {
+    margin-top: 20px;
+  }
+  
+  .featured h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .featured ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .featured ul li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .featured ul li img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .featured ul li h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .featured ul li p {
+    color: #666;
+  }
+  
+  .featured ul li a {
+    display: block;
+    background-color: #ffffff;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .featured ul li a:hover {
+    background-color: #007bff;
+  }
+  
+  /* Content styles */
+  #content {
+    margin-top: 20px;
+  }
+  
+  #content h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  #content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #content ul li {
+    margin-bottom: 20px;
+  }
+  
+  #content ul li h4 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  #content ul li h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  #content ul li p {
+    color: #666;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Footer styles */
+  #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  #footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #footer ul li {
+    text-align: center;
+  }
+  
+  #footer .logo {
+    max-width: 80px; /* Adjust footer logo size as needed */
+  }
+  
+  .connect li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .connect li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff8f8;
+    background-size: cover;
+    text-indent: -9999px; /* Hide text */
+  }
+  
+  .connect li a.facebook {
+    background-image: url('../images/facebook.png'); /* Replace with actual image path */
+  }
+  
+  .connect li a.twitter {
+    background-image: url('../images/twitter.png'); /* Replace with actual image path */
+  }
+  
+  .connect li a.googleplus {
+    background-image: url('../images/googleplus.png'); /* Replace with actual image path */
+  }
+  
+  #footer form {
+    margin-top: 20px;
+  }
+  
+  #footer form input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #footer form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  #footer form input[type="submit"]:hover {
+    background-color: #ffffff;
+    
+  }
+  .order-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    display: block; /* הפעלת תצוגה בצורה כללית */
+    margin: 0 auto; /* מירוץ ע*/
+
+}
+
+
+
