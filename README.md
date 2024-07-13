@@ -2,7 +2,7 @@
 ## Screen Captures
 
 ### Home Page
-![Home Page](path/to/homepage.png)
+![image](https://github.com/user-attachments/assets/776ef282-d8da-489c-b240-b9d2828c3a49)
 
 ### Menu Page
 ![Menu Page](path/to/menupage.png)
